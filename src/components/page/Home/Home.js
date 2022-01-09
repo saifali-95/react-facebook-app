@@ -1,8 +1,9 @@
+import HomeIcon from '@mui/icons-material/Home';
 
 export default function Home(){
   return (
     <div>
-      This is Home Page
+      <HomeIcon />
     </div>
   )
 }
