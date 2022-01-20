@@ -8,11 +8,11 @@ export default function Topbar(){
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-        <span className="social">Facebook</span>
+        <span className="logo">Facebook</span>
       </div>
       <div className="topbarCenter">
         <div className="searchBar">
-          <SearchIcon />
+          <SearchIcon className="searchIcon"/>
           <input placeholder="Search for friends, post, video" className="searchInput" />
         </div>
       </div>
@@ -36,7 +36,9 @@ export default function Topbar(){
           <span className="topbarIconBadge">1</span>
         </div>
       </div>
-        <img src="/assets/person/1.jpeg" alt="" className="topbarImg"/>
+        <div className="topbarIconItem">
+          <img src="/assets/person/1.jpeg" alt="" className="topbarImg"/>
+        </div> 
     </div>
   )
 }
